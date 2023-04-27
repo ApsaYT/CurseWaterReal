@@ -27,11 +27,28 @@ xui.Class('App', 'xui.Module',{
                 .setTop("0em")
                 .setWidth("26.057142857142857em")
                 .setHeight("8.838095238095239em")
+                .setZIndex(2)
                 .setCaption("CurseWater")
                 .setHAlign("left")
                 .setFontColor("#0000CD")
                 .setFontSize("35px")
                 .setFontWeight("bold")
+            );
+            
+            append(
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block10")
+                .setLeft("0em")
+                .setTop("0em")
+                .setWidth("61.02857142857143em")
+                .setHeight("3.8857142857142857em")
+                .setBackground("#2D2D2D")
+            );
+            
+            append(
+                xui.create("xui.UI.CSSBox")
+                .setHost(host,"xui_ui_cssbox3")
+                .setClassName("xui-css-te")
             );
             
             return children;
