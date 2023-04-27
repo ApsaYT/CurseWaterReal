@@ -23,14 +23,15 @@ xui.Class('App', 'xui.Module',{
             append(
                 xui.create("xui.UI.Label")
                 .setHost(host,"xui_ui_label9")
-                .setLeft("0em")
+                .setLeft("0.7619047619047619em")
                 .setTop("0em")
-                .setWidth("26.057142857142857em")
-                .setHeight("8.838095238095239em")
+                .setWidth("7.771428571428571em")
+                .setHeight("3.5047619047619047em")
                 .setZIndex(2)
-                .setCaption("CurseWater")
+                .setCaption("Curse")
                 .setHAlign("left")
-                .setFontColor("#0000CD")
+                .setVAlign("middle")
+                .setFontColor("#606060")
                 .setFontSize("35px")
                 .setFontWeight("bold")
             );
@@ -41,8 +42,36 @@ xui.Class('App', 'xui.Module',{
                 .setLeft("0em")
                 .setTop("0em")
                 .setWidth("61.02857142857143em")
-                .setHeight("3.8857142857142857em")
+                .setHeight("5.40952380952381em")
+                .setBorderType("none")
                 .setBackground("#2D2D2D")
+            );
+            
+            append(
+                xui.create("xui.UI.Label")
+                .setHost(host,"xui_ui_label14")
+                .setLeft("8.380952380952381em")
+                .setTop("0em")
+                .setWidth("7.771428571428571em")
+                .setHeight("3.5047619047619047em")
+                .setZIndex(2)
+                .setCaption("Water")
+                .setHAlign("left")
+                .setVAlign("middle")
+                .setFontColor("#0000CD")
+                .setFontSize("35px")
+                .setFontWeight("bold")
+            );
+            
+            append(
+                xui.create("xui.UI.Block")
+                .setHost(host,"xui_ui_block16")
+                .setLeft("0em")
+                .setTop("3.8095238095238093em")
+                .setWidth("61.02857142857143em")
+                .setHeight("41.98095238095238em")
+                .setBackground("#202020")
+                .setBorderType("none")
             );
             
             append(
