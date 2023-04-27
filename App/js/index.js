@@ -41,7 +41,7 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_block10")
                 .setLeft("0em")
                 .setTop("0em")
-                .setWidth("61.02857142857143em")
+                .setWidth("146.36190476190475em")
                 .setHeight("5.40952380952381em")
                 .setBorderType("none")
                 .setBackground("#2D2D2D")
@@ -68,10 +68,10 @@ xui.Class('App', 'xui.Module',{
                 .setHost(host,"xui_ui_block16")
                 .setLeft("0em")
                 .setTop("3.8095238095238093em")
-                .setWidth("61.02857142857143em")
-                .setHeight("41.98095238095238em")
-                .setBackground("#202020")
+                .setWidth("146.36190476190475em")
+                .setHeight("78.55238095238096em")
                 .setBorderType("none")
+                .setBackground("#202020")
             );
             
             append(
